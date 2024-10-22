@@ -11,6 +11,7 @@ startFan();
 function sum(a,b,c,d,e){
     var sum = a+b+c+d+e;
     console.log('Sum of :',a,b,c,d,e);
-    console.log(sum);
+    return sum;
 }
-sum(2,5,4,8,7);
+var calculate = sum(2,5,4,8,7);
+console.log(calculate);
