@@ -1,5 +1,6 @@
 var student = [22,55,43,7,2,9];
 var nameStudent = ['Rahim','Karim','Jasim','Miraj'];
+nameStudent.push('gelam');
 console.log(nameStudent);
 console.log(nameStudent.length);
 console.log(student);
@@ -18,3 +19,18 @@ console.log(student);
 
 var positionIndex =student.indexOf(2);
 console.log(positionIndex);
+
+var numbers= [78,44,56,22];
+numbers.push(63);
+numbers.pop();
+console.log(numbers);
+
+numbers.unshift(31);
+console.log(numbers);
+
+numbers.shift();
+console.log(numbers);
+
+//use of splice
+numbers.splice(0,2);
+console.log(numbers);
