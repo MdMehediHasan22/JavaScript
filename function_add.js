@@ -4,6 +4,7 @@ function add(num1,num2){
     return sum;
 }
 var total = add(12,33);
+
 console.log(total);
 
 //example
