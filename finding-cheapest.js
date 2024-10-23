@@ -7,7 +7,7 @@ const phones = [
     {name:'Vivo',camera:'64px',price:24000},
     {name:'pixel-4',camera:'64px',price:29000}
 ];
-
+ 
 function findCheapest(phones){
   let cheapest = phones[0];
 
