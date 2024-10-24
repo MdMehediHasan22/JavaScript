@@ -3,7 +3,8 @@ function matchFinder(string1, string2) {
        console.log('invalid input');
        return false;
     }
-    return string1.includes(string2);
+    else if(string1.includes(string2))
+    return true ;
 }
 
 console.log(matchFinder('javascript','script'));
